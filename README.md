@@ -17,23 +17,16 @@ Researchers can navigate 1536-well plates, inspect individual colony crops, and 
 
 ---
 
-## Workflow
+## Workflow and Methodology
 
-```text
-Clinical strains on agar plates
-        │
-        ▼
-  Flatbed scanner images  ──►  IRIS software  ──►  Morphology metrics
-        │                                           (size, circularity,
-        │                                            opacity, biofilm…)
-        │
-        ▼
-  Whole-genome sequences  ──►  Kleborate       ──►  AMR genes, virulence
-                                                     loci, sequence type
-        │
-        ▼
-     ColonyPicker  ──  links both streams for interactive exploration
-```
+**Step 1 — Phenotypic Data Generation**
+Clinical strains are arrayed and grown on agar plates during high-throughput chemical genomics screening. The resulting macroscopic plate images are processed using IRIS software to extract quantitative morphology metrics for each colony.
+
+**Step 2 — Genotypic Data Generation**
+In parallel, the genomes of these same clinical strains are analyzed using Kleborate to identify sequence types, antimicrobial resistance genes, and virulence determinants.
+
+**Step 3 — Data Integration**
+ColonyPicker brings these two streams together. The application seamlessly links the physical colony measurements from IRIS with the genomic profiles from Kleborate, allowing researchers to explore genotype–phenotype relationships interactively.
 
 ---
 
