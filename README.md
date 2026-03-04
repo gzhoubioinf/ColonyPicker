@@ -1,4 +1,4 @@
-# ColonyPicker
+
 
 ![ColonyPicker](app/assets/Picture.png)
 
