@@ -118,7 +118,7 @@ pip install -r requirements.txt
 streamlit run app/main.py
 ```
 
-The app opens in your browser at `[https://colonypicker.streamlit.app/]`.
+The app opens in your browser at [https://colonypicker.streamlit.app/](https://colonypicker.streamlit.app/).
 
 ---
 
