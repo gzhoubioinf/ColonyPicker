@@ -1,0 +1,7 @@
+files:
+  strain_file: "data/strain_names.csv"
+  kleborate_file: "data/kleborate_all.tsv"
+
+directories:
+  image_directory: "data/plate_images/"
+  iris_directory: "data/iris_measurements/"
